@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://10.10.30.165/ -->
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+		<title>Video Script</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<meta name="robots" content="index, follow">
+		<meta name="revisit-after" content="1 days">
+		<meta name="keywords" content="porn, sex, porno, free porn, porn tube, porn videos, stream porn, free streaming porn, full sex videos, sex videos, sex tube, amataur sex movies, free porn videos">
+		<meta name="description" content="Free Porn Videos">
+
+	<link rel="Shortcut Icon" type="image/ico" href="http://10.10.30.165/favicon.ico">
+	<link rel="apple-touch-icon" href="http://10.10.30.165/templates/frontend/dark-red/img/webapp-icon.png">
+
+    <script type="text/javascript">
+    var base_url = "http://10.10.30.165";
+	var max_thumb_folders = "32000";
+    var tpl_url = "/templates/frontend/dark-red";
+		var lang_deleting = "删除...";
+	var lang_flaging = "标记中...";
+	var lang_loading = "加载中...";
+	var lang_sending = "发送...";
+	var lang_share_name_empty = "请输入您的名字!";
+	var lang_share_rec_empty = "请至少输入一个收件人的电子邮件!";
+	</script>
+
+	<script src="source/jquery.min.js"></script>
+	
+	<link href="http://10.10.30.165/templates/frontend/dark-red/css/bootstrap.css" rel="stylesheet">
+	<link href="http://10.10.30.165/templates/frontend/dark-red/css/style.css" rel="stylesheet">
+	<link href="http://10.10.30.165/templates/frontend/dark-red/css/responsive.css" rel="stylesheet">
+	<link href="http://10.10.30.165/templates/frontend/dark-red/css/font-awesome.min.css" rel="stylesheet">		
+	<link href="http://10.10.30.165/templates/frontend/dark-red/css/colors.css" rel="stylesheet">
+	
+	
+</head>
+<body>
+
+<div class="modal fade in" id="login-modal">
+	<div class="modal-dialog login-modal">
+      <div class="modal-content">
+        <form name="login_form" method="post" action="http://10.10.30.165/login">
+		<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">会员登录</h4>
+        </div>
+        <div class="modal-body">
+			<div class="form-group">
+				<label for="login_username" class="control-label">用户名:</label>
+				<input name="username" type="text" value="" id="login_username" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="login_password" class="control-label">密码:</label>
+				<input name="password" type="password" value="" id="login_password" class="form-control">
+			</div>
+			<a href="http://10.10.30.165/lost" id="lost_password">忘记用户名或密码？</a><br>
+			<a href="http://10.10.30.165/confirm" id="confirmation_email">没有收到确认邮件？</a>		
+        </div>
+        <div class="modal-footer">
+          <button name="submit_login" id="login_submit" type="submit" class="btn btn-primary">登录</button>
+          <a href="http://10.10.30.165/signup" class="btn btn-secondary">注册</a>
+        </div>
+		</form>			
+      </div>
+    </div>
+</div>
+
+<div class="modal fade in" id="language-modal">
+	<div class="modal-dialog language-modal">
+      <div class="modal-content">
+        
+		<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Select Language</h4>
+        </div>
+        <div class="modal-body">
+			<div class="row">
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="en_US" class="change-language">English</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="fr_FR" class="change-language">Français</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="de_DE" class="change-language">Deutsch</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="nl_NL" class="change-language">Dutch</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="es_ES" class="change-language">Español</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="it_IT" class="change-language">Italiano</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="pt_PT" class="change-language">Português</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="pt_BR" class="change-language">Português</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="ru_RU" class="change-language">русский</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="sa_SA" class="change-language">العربية</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="he_IL" class="change-language">עִבְרִית</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="jp_JP" class="change-language">日本語</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<span class="change-language language-active">中文简体</span>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="cn_CT" class="change-language">中文 繁體</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="tr_TR" class="change-language">Türkçe</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="dk_DK" class="change-language">Dansk</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="no_NO" class="change-language">Norsk</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="cz_CZ" class="change-language">Český</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="bn_BD" class="change-language">বাংলা</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="ro_RO" class="change-language">Română</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="pl_PL" class="change-language">Polski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="hu_HU" class="change-language">Magyar</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="ba_BA" class="change-language">Bosanski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="hr_HR" class="change-language">Hrvatski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="rs_RS" class="change-language">Srpski</a>
+											</div>
+									<div class="col-xs-6 col-sm-4">
+													<a href="http://10.10.30.165/#" id="si_SI" class="change-language">Slovenski</a>
+											</div>
+							</div>
+			<form name="languageSelect" id="languageSelect" method="post" action="">
+			<input name="language" id="language" type="hidden" value="">
+			</form>
+        </div>
+
+		
+      </div>
+    </div>
+</div>
+<div class="top-nav">
+	<div class="container">
+		<ul class="top-menu">
+						<div class="pull-right">
+							<li><a href="http://10.10.30.165/signup" rel="nofollow">注册</a></li>
+				<li><a data-toggle="modal" href="http://10.10.30.165/#login-modal">登录</a></li>	
+						</div>
+			<div class="clearfix"></div>
+		</ul> 
+	</div>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="source/Free Porn Videos - Adult Video Script.html"><img src="source/logo.png"></a>
+		</div>
+		<div class="navbar-collapse collapse navbar-inverse-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://10.10.30.165/videos">视频</a></li>				<li><a href="http://10.10.30.165/albums">图片</a></li>				<li><a href="http://10.10.30.165/games">游戏</a></li>				
+				<li class="dropdown visible-sm hidden-xs hidden-md hidden-lg">
+					<a href="http://10.10.30.165/#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://10.10.30.165/blogs">部落格</a></li>							<li><a href="http://10.10.30.165/categories">类别</a></li>
+							<li><a href="http://10.10.30.165/community">社区</a></li>
+						</ul>
+				</li>
+				
+				<li class="hidden-sm"><a href="http://10.10.30.165/blogs">部落格</a></li>				<li class="hidden-sm"><a href="http://10.10.30.165/categories">类别</a></li>
+				<li class="hidden-sm"><a href="http://10.10.30.165/community">社区</a></li>
+				<li class="dropdown">
+				<a href="http://10.10.30.165/#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+				<ul class="dropdown-menu search-dropdown-menu">
+					<form class="form-inline" name="search" id="search_form" method="get" action="http://10.10.30.165/search">
+						<div class="input-group">
+						<input type="text" class="form-control" placeholder="搜索" name="search_query" id="search_query" value="">
+						<span class="search-select input-group-addon">
+							<select class="form-control" name="search_type" id="search_type">
+								<option value="videos">视频</option>
+								<option value="photos">照片</option>								<option value="games">游戏</option>								<option value="users">用户</option>
+							</select>		
+						</span>
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+						</span>
+						</div>
+					</form>
+				</ul>
+				</li>
+				<li><button type="button" class="btn btn-primary navbar-btn m-l-15 m-r-15" onclick="location.href=&#39;/upload&#39;">上传</button></li>						
+			</ul>
+			
+		</div><!--/.nav-collapse -->
+    </div>
+</div>
+<div id="wrapper" style="padding-bottom: 229px;">
+<div class="container">
+
+	<div class="well well-filters">
+			<div class="pull-left">
+				<h4>游戏</h4>
+			</div>
+			<div class="pull-left m-l-20">
+				<div class="hidden-xs">
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">类型 <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="http://10.10.30.165/games">全部</a></li>
+							<li><a href="http://10.10.30.165/games?type=public">公开</a></li>
+							<li><a href="http://10.10.30.165/games?type=private">私人</a></li>
+						</ul>
+					</div>
+					
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">加入 本月 <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li><a href="http://10.10.30.165/games?t=a">全部</a></li>							
+							<li><a href="http://10.10.30.165/games?t=t">加入 今天</a></li>
+							<li><a href="http://10.10.30.165/games?t=w">加入 这周</a></li>
+							<li><a href="http://10.10.30.165/games?t=m">加入 本月</a></li>
+						</ul>
+					</div>					
+
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">最爱 <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li><a href="http://10.10.30.165/games?o=bp">正在播放</a></li>						
+							<li><a href="http://10.10.30.165/games?o=mr">最新</a></li>
+							<li><a href="http://10.10.30.165/games?o=mp">大多数播放</a></li>
+							<li><a href="http://10.10.30.165/games?o=tr">最高评分</a></li>
+							<li><a href="http://10.10.30.165/games?o=md">最多评论</a></li>
+							<li><a href="http://10.10.30.165/games?o=tf">最爱</a></li>
+						</ul>
+					</div>					
+				</div>	
+				<div class="visible-xs">
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Filters <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="http://10.10.30.165/games">全部</a></li>
+							<li><a href="http://10.10.30.165/games?type=public">公开</a></li>
+							<li><a href="http://10.10.30.165/games?type=private">私人</a></li>						
+							<li class="divider"></li>
+							<li><a href="http://10.10.30.165/games?t=a">全部</a></li>							
+							<li><a href="http://10.10.30.165/games?t=t">加入 今天</a></li>
+							<li><a href="http://10.10.30.165/games?t=w">加入 这周</a></li>
+							<li><a href="http://10.10.30.165/games?t=m">加入 本月</a></li>
+							<li class="divider"></li>				
+							<li><a href="http://10.10.30.165/games?o=bp">正在播放</a></li>						
+							<li><a href="http://10.10.30.165/games?o=mr">最新</a></li>
+							<li><a href="http://10.10.30.165/games?o=mp">大多数播放</a></li>
+							<li><a href="http://10.10.30.165/games?o=tr">最高评分</a></li>
+							<li><a href="http://10.10.30.165/games?o=md">最多评论</a></li>
+							<li><a href="http://10.10.30.165/games?o=tf">最爱</a></li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+			<div class="pull-right">
+				<a class="btn btn-primary" href="http://10.10.30.165/upload/game"><span class="hidden-xs"><i class="fa fa-upload"></i> 上传游戏</span><span class="visible-xs"><i class="fa fa-upload"></i></span></a>
+			</div>		
+			<div class="clearfix"></div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-9 col-sm-8">
+            			<div class="well well-sm">
+				<span class="text-danger">没有游戏发现!.</span>
+			</div>
+            	
+
+			
+		</div>
+		
+		<div class="col-md-3 col-sm-4">
+			<div class="list-group">
+				<a href="http://10.10.30.165/games" class="list-group-item">
+					全部
+				</a>
+							</div>
+			<div class="well ad-body">
+				<p class="ad-title">赞助商</p>
+				
+							</div>			
+		</div>
+	</div>
+		
+	<div class="well ad-body">
+		<p class="ad-title">赞助商</p>
+		
+			</div>	
+</div><div class="container">
+
+	<div class="well well-filters">
+			<div class="pull-left">
+				<h4>播出的视频</h4>
+			</div>
+			<div class="pull-right">
+				<a class="btn btn-primary" href="http://10.10.30.165/videos?o=bw"><span class="hidden-xs"><i class="fa fa-plus"></i> 查看更多被播出的视频...</span><span class="visible-xs"><i class="fa fa-plus"></i></span></a>
+			</div>		
+			<div class="clearfix"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-9 col-sm-8">
+            			<div class="row">
+            				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="well well-sm">
+						<a href="http://10.10.30.165/video/37/aaaaaaaaaaa">
+							<div class="thumb-overlay">
+								<img src="source/1.jpg" title="aaaaaaaaaaa" alt="aaaaaaaaaaa" id="rotate_37_20_1_viewed" class="img-responsive ">
+																								<div class="duration">
+									
+									01:17
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">aaaaaaaaaaa</span>
+						</a>
+						<div class="video-added">
+							
+							23 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							16 观看次数						</div>
+						<div class="video-rating pull-right no-rating">
+							<i class="fa fa-heart video-rating-heart no-rating"></i> <b>-</b>
+						</div>		
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            			</div>
+            			
+						
+
+		</div>
+		
+		<div class="col-md-3 col-sm-4">
+			<div class="well ad-body">
+				<p class="ad-title">赞助商</p>
+				
+							</div>			
+		</div>
+	</div>
+	
+	<div class="well well-filters">
+		<div class="pull-left">
+			<h4>最新上传视频</h4>
+		</div>
+		<div class="pull-right">
+			<a class="btn btn-primary" href="http://10.10.30.165/videos?o=mr"><span class="hidden-xs"><i class="fa fa-plus"></i> 查看更多最新上传视频...</span><span class="visible-xs"><i class="fa fa-plus"></i></span></a>
+		</div>		
+		<div class="clearfix"></div>
+	</div>
+	
+	<div class="row">
+		<div class="col-sm-12">
+            			<div class="row">
+            				<div class="col-sm-4 col-md-3 col-lg-3">
+					<div class="well well-sm">
+						<a href="http://10.10.30.165/video/37/aaaaaaaaaaa">
+							<div class="thumb-overlay">
+								<img src="source/1.jpg" title="aaaaaaaaaaa" alt="aaaaaaaaaaa" id="rotate_37_20_1_recent" class="img-responsive ">
+																								<div class="duration">
+									
+									01:17
+								</div>
+							</div>
+							<span class="video-title title-truncate m-t-5">aaaaaaaaaaa</span>
+						</a>
+						<div class="video-added">
+							
+							23 小时 ago
+						</div>
+						<div class="video-views pull-left">
+							16 观看次数						</div>
+						<div class="video-rating pull-right no-rating">
+							<i class="fa fa-heart video-rating-heart no-rating"></i> <b>-</b>
+						</div>	
+						<div class="clearfix"></div>
+						
+					</div>				
+				</div>			
+            			</div>
+            			
+		</div>
+	</div>
+	
+	<div class="well ad-body">
+		<p class="ad-title">赞助商</p>
+		
+			</div>
+	
+</div><div class="footer-container">
+	<div class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+						<h4>Information</h4>
+						<ul class="list-unstyled">
+							<li><a href="http://10.10.30.165/static/terms" rel="nofollow">条款和条件</a></li>
+							<li><a href="http://10.10.30.165/static/privacy" rel="nofollow">私隐权政策</a></li>
+							<li><a href="http://10.10.30.165/static/dmca" rel="nofollow">DMCA</a></li>
+							<li><a href="http://10.10.30.165/static/_2257" rel="nofollow">2257</a></li>
+						</ul>
+				</div>
+				<div class="col-sm-4">
+						<h4>Work With Us</h4>
+						<ul class="list-unstyled">
+							<li><a href="http://10.10.30.165/static/advertise" rel="nofollow">广告</a></li>
+							<li><a href="http://10.10.30.165/static/webmasters" rel="nofollow">网站管理员</a></li>
+							<li><a href="http://10.10.30.165/invite" rel="nofollow">邀请朋友</a></li>						
+						</ul>
+				</div>
+				<div class="col-sm-4">
+						<h4>Support and Help</h4>
+						<ul class="list-unstyled">
+							<li><a href="http://10.10.30.165/notices">通告</a></li>					
+							<li><a href="http://10.10.30.165/static/faq" rel="nofollow">常见问题</a></li>
+							<li><a href="http://10.10.30.165/feedback" rel="nofollow">帮助 / 意见</a></li>					
+						</ul>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="hidden-xs">
+				<div class="pull-left">
+					<span>版权所有 © 2008-2015</span> Adult Video Script
+				</div>
+				<div class="pull-right">
+					Powered by <a target="_blank" href="http://www.adultvideoscript.com/">AVS</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="visible-xs"><span>版权所有 © 2008-2015</span> Adult Video Script<br>Powered by <a target="_blank" href="http://www.adultvideoscript.com/">AVS</a></div>
+		</div>
+	</div>
+</div>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="source/bootstrap.min.js"></script>
+    <script type="text/javascript" src="source/jquery.rotator-0.2.js"></script>
+    <script type="text/javascript" src="source/jquery.avs-0.2.js"></script>
+
+	<script>
+	
+			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		  var msViewportStyle = document.createElement('style')
+		  msViewportStyle.appendChild(
+			document.createTextNode(
+			  '@-ms-viewport{width:auto!important}'
+			)
+		  )
+		  document.querySelector('head').appendChild(msViewportStyle)
+		}
+	
+	</script>
+	
+
+</body></html>
